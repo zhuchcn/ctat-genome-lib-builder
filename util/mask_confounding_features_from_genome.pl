@@ -202,7 +202,7 @@ sub append_PAR_regions {
     close $fh;
 
     unless($found_PAR) {
-        if ($IS_GRCH38) {
+        if ($is_grch38) {
             # just add manually. 
             # see: https://useast.ensembl.org/info/genome/genebuild/human_PARS.html
 
